@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { PageRouteProps } from "@/interface";
 
 export default function Home() {
-  const router = useRouter()
+  const router = useRouter();
 
   const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
     router.push(pageRoute, undefined, { shallow: false })
