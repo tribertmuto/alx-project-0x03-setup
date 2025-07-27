@@ -1,8 +1,7 @@
-import React from "react";
 import { 
 FaFacebook, 
 FaTwitter,
-FaInstagram } from 'react-icons/fa';
+FaInstagram } from 'react-icons/fa'; 
 
 const Footer: React.FC = () => {
   return (
@@ -56,4 +55,4 @@ const Footer: React.FC = () => {
   );
 }
 
-export default Footer;
+export default Footer; 

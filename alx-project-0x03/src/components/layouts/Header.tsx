@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Button from "../common/Button";
 
@@ -26,4 +25,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Header; 
